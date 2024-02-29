@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import About from "./About";
 import Intro from "./Intro";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
       <Header />
       <div className="bg-primary px-40">
         <Intro />
+        <About />
       </div>
     </div>
   );
