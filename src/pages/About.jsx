@@ -2,6 +2,14 @@ import SectionTitle from "../components/SectionTitle";
 import image from "../assets/my pic.jpg";
 
 const About = () => {
+  const skills = [
+    "Javascript",
+    "React",
+    "Node",
+    "Express",
+    "MongoDb",
+    "Firebase",
+  ];
   return (
     <div>
       <SectionTitle title="About Me" />
@@ -18,12 +26,28 @@ const About = () => {
           <p className="text-white">
             My journey in the world of web development began with a fascination
             for creating dynamic and interactive user experiences. Over the
-            years, I've honed my skills in each component of the MERN stack,
+            years, I have honed my skills in each component of the MERN stack,
             leveraging the power of MongoDB for flexible data storage,
             harnessing the simplicity and versatility of Express.js for backend
             development, building responsive and intuitive user interfaces with
             React.js, and ensuring seamless server-side execution with Node.js.
           </p>
+        </div>
+      </div>
+
+      <div className="py-10">
+        <h1 className="text-tertiary font-semibold">
+          Here are a few technologies i have working with recently.{" "}
+        </h1>
+        <div className="flex flex-wrap gap-8 mt-8">
+          {skills.map((skill) => (
+            <h1
+              key="index"
+              className="text-tertiary border-2 border-tertiary px-7 py-2 rounded-lg"
+            >
+              {skill}
+            </h1>
+          ))}
         </div>
       </div>
     </div>
