@@ -28,3 +28,11 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #0cacc5;
 }
+
+i {
+  cursor: pointer;
+}
+
+i:hover {
+  color: #f97316;
+}
