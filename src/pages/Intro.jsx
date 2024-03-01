@@ -8,7 +8,7 @@ const Intro = () => {
       <h1 className="text-white text-4xl sm:text-2xl font-semibold">
         I build think for the web
       </h1>
-      <p className="text-white w-2/3 sm:text-sm">
+      <p className="text-white w-2/3 text-sm">
         I am MERN stack Web Developer. Currently i am working as a React
         Developer. Also sharing my knowledge to the students that I have gained
         in my carrier through across the world.{" "}

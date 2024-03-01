@@ -18,14 +18,14 @@ const About = () => {
           <img className="h-[60vh] rounded-full" src={image} />
         </div>
         <div className="flex flex-col gap-7 w-3/5 sm:w-full">
-          <p className="text-white sm:text-sm">
+          <p className="text-white text-sm">
             Hello there! I am Jobaer Rahman, a passionate MERN (MongoDB,
             Express.js, React.js, Node.js) stack developer with a keen eye for
             crafting robust and efficient web applications. I thrive on solving
             complex problems and turning ideas into reality through elegant
             code.
           </p>
-          <p className="text-white sm:text-sm">
+          <p className="text-white text-sm">
             My journey in the world of web development began with a fascination
             for creating dynamic and interactive user experiences. Over the
             years, I have honed my skills in each component of the MERN stack,
