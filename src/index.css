@@ -36,3 +36,48 @@ i {
 i:hover {
   color: whitesmoke;
 }
+
+.m {
+  animation: m 1s infinite;
+}
+@keyframes m {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.j {
+  animation: j 1s infinite;
+}
+@keyframes j {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.r {
+  animation: r 1s infinite;
+}
+@keyframes r {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
